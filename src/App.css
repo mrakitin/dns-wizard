@@ -117,19 +117,14 @@
 }
 
 .options-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   gap: 15px;
   margin-bottom: 30px;
 }
 
 .options-grid.horizontal {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding: 10px 0;
-  justify-content: flex-start;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .option-button {
@@ -143,8 +138,12 @@
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-  flex-shrink: 0;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 80px;
+  justify-content: center;
 }
 
 .option-button:hover {
@@ -373,7 +372,7 @@
   }
 
   .options-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
 
@@ -414,12 +413,12 @@
     width: 100%;
     max-width: 300px;
   }
-  
+
   .github-link {
     padding: 6px 12px;
     font-size: 0.8rem;
   }
-  
+
   .github-icon {
     font-size: 1rem;
   }
@@ -439,7 +438,7 @@
   }
 
   .options-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .dns-name {

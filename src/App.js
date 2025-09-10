@@ -232,9 +232,9 @@ const App = () => {
       <footer className="app-footer">
         <p>NSLS-II Beamline Device Naming System</p>
         <div className="footer-links">
-          <a 
-            href="https://github.com/mrakitin/dns-wizard" 
-            target="_blank" 
+          <a
+            href="https://github.com/mrakitin/dns-wizard"
+            target="_blank"
             rel="noopener noreferrer"
             className="github-link"
           >
