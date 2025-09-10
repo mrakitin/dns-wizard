@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": ".",
+  "homepage": "https://mrakitin.github.io/dns-wizard",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
