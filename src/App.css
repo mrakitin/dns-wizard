@@ -118,6 +118,28 @@
   transform: translateY(0);
 }
 
+.device-icon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.device-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.beamline-icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.beamline-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .back-button {
   background: #f8f9fa;
   color: #666;
@@ -271,6 +293,24 @@
 
   .option-button {
     padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+  
+  .device-icon {
+    font-size: 1.2rem;
+    margin-right: 6px;
+  }
+  
+  .device-name {
+    font-size: 0.9rem;
+  }
+  
+  .beamline-icon {
+    font-size: 1rem;
+    margin-right: 6px;
+  }
+  
+  .beamline-name {
     font-size: 0.9rem;
   }
 
