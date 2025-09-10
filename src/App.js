@@ -76,9 +76,15 @@ const App = () => {
       typeSuffix = 'bm';
       machineId = '';
     } else if (beamlineValue.includes('-IR')) {
-      // IR beamlines: use "ir" with number
+      // IR beamlines: use "ir" with explicit number or default to beamlineId + 1
       typeSuffix = 'ir';
-      machineId = parseInt(beamlineId) + 1;
+      if (beamlineValue.includes('-IR-')) {
+        // Extract the explicit number (e.g., "22-IR-1" -> "1", "22-IR-2" -> "2")
+        machineId = beamlineValue.split('-IR-')[1];
+      } else {
+        // Default to beamlineId + 1 for single IR beamlines (e.g., "24-IR" -> "25")
+        machineId = parseInt(beamlineId) + 1;
+      }
     } else if (beamlineValue.includes('-ID')) {
       // ID beamlines: use "id" with explicit number or default to "1"
       typeSuffix = 'id';
