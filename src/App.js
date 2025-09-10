@@ -121,7 +121,7 @@ const App = () => {
           <div className="step-container">
             <h2>Select Beamline</h2>
             <p>Choose the beamline where the device will be integrated:</p>
-            <div className="options-grid">
+            <div className="options-grid horizontal">
               {beamlines.map((beamlineOption) => (
                 <button
                   key={beamlineOption.id}
