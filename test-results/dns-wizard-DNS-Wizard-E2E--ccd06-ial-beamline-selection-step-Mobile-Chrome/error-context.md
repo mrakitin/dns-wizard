@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "🔬 DNS Wizard" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Generate DNS names for beamline devices
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e11]: Step 1 of 3
+      - generic [ref=e12]:
+        - heading "Select Beamline" [level=2] [ref=e13]
+        - paragraph [ref=e14]: "Choose the beamline where the device will be integrated:"
+        - generic [ref=e15]:
+          - button "🔬 2-ID" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17] [cursor=pointer]: 🔬
+            - generic [ref=e18] [cursor=pointer]: 2-ID
+          - button "🔬 3-ID" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20] [cursor=pointer]: 🔬
+            - generic [ref=e21] [cursor=pointer]: 3-ID
+          - button "🧲 4-BM" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]: 🧲
+            - generic [ref=e24] [cursor=pointer]: 4-BM
+          - button "🔬 4-ID" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26] [cursor=pointer]: 🔬
+            - generic [ref=e27] [cursor=pointer]: 4-ID
+          - button "🔬 5-ID" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29] [cursor=pointer]: 🔬
+            - generic [ref=e30] [cursor=pointer]: 5-ID
+          - button "🧲 6-BM" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32] [cursor=pointer]: 🧲
+            - generic [ref=e33] [cursor=pointer]: 6-BM
+          - button "🔬 6-ID" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35] [cursor=pointer]: 🔬
+            - generic [ref=e36] [cursor=pointer]: 6-ID
+          - button "🧲 7-BM" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38] [cursor=pointer]: 🧲
+            - generic [ref=e39] [cursor=pointer]: 7-BM
+          - button "🔬 7-ID-1" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41] [cursor=pointer]: 🔬
+            - generic [ref=e42] [cursor=pointer]: 7-ID-1
+          - button "🔬 7-ID-2" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44] [cursor=pointer]: 🔬
+            - generic [ref=e45] [cursor=pointer]: 7-ID-2
+          - button "🧲 8-BM" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47] [cursor=pointer]: 🧲
+            - generic [ref=e48] [cursor=pointer]: 8-BM
+          - button "🔬 8-ID" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50] [cursor=pointer]: 🔬
+            - generic [ref=e51] [cursor=pointer]: 8-ID
+          - button "🔬 9-ID" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53] [cursor=pointer]: 🔬
+            - generic [ref=e54] [cursor=pointer]: 9-ID
+          - button "🔬 10-ID" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56] [cursor=pointer]: 🔬
+            - generic [ref=e57] [cursor=pointer]: 10-ID
+          - button "🧲 11-BM" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59] [cursor=pointer]: 🧲
+            - generic [ref=e60] [cursor=pointer]: 11-BM
+          - button "🔬 11-ID" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62] [cursor=pointer]: 🔬
+            - generic [ref=e63] [cursor=pointer]: 11-ID
+          - button "🔬 12-ID" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65] [cursor=pointer]: 🔬
+            - generic [ref=e66] [cursor=pointer]: 12-ID
+          - button "🧲 16-BM" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68] [cursor=pointer]: 🧲
+            - generic [ref=e69] [cursor=pointer]: 16-BM
+          - button "🔬 16-ID" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71] [cursor=pointer]: 🔬
+            - generic [ref=e72] [cursor=pointer]: 16-ID
+          - button "🧲 17-BM" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74] [cursor=pointer]: 🧲
+            - generic [ref=e75] [cursor=pointer]: 17-BM
+          - button "🔬 17-ID-1" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77] [cursor=pointer]: 🔬
+            - generic [ref=e78] [cursor=pointer]: 17-ID-1
+          - button "🔬 17-ID-2" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80] [cursor=pointer]: 🔬
+            - generic [ref=e81] [cursor=pointer]: 17-ID-2
+          - button "🔬 18-ID" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83] [cursor=pointer]: 🔬
+            - generic [ref=e84] [cursor=pointer]: 18-ID
+          - button "🔬 19-ID" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86] [cursor=pointer]: 🔬
+            - generic [ref=e87] [cursor=pointer]: 19-ID
+          - button "🔬 21-ID" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89] [cursor=pointer]: 🔬
+            - generic [ref=e90] [cursor=pointer]: 21-ID
+          - button "🌡️ 22-IR-1" [ref=e91] [cursor=pointer]:
+            - generic [ref=e92] [cursor=pointer]: 🌡️
+            - generic [ref=e93] [cursor=pointer]: 22-IR-1
+          - button "🌡️ 22-IR-2" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95] [cursor=pointer]: 🌡️
+            - generic [ref=e96] [cursor=pointer]: 22-IR-2
+          - button "🔬 23-ID-1" [ref=e97] [cursor=pointer]:
+            - generic [ref=e98] [cursor=pointer]: 🔬
+            - generic [ref=e99] [cursor=pointer]: 23-ID-1
+          - button "🔬 23-ID-2" [ref=e100] [cursor=pointer]:
+            - generic [ref=e101] [cursor=pointer]: 🔬
+            - generic [ref=e102] [cursor=pointer]: 23-ID-2
+          - button "🌡️ 24-IR" [ref=e103] [cursor=pointer]:
+            - generic [ref=e104] [cursor=pointer]: 🌡️
+            - generic [ref=e105] [cursor=pointer]: 24-IR
+          - button "🔬 26-ID-1" [ref=e106] [cursor=pointer]:
+            - generic [ref=e107] [cursor=pointer]: 🔬
+            - generic [ref=e108] [cursor=pointer]: 26-ID-1
+          - button "🔬 26-ID-2" [ref=e109] [cursor=pointer]:
+            - generic [ref=e110] [cursor=pointer]: 🔬
+            - generic [ref=e111] [cursor=pointer]: 26-ID-2
+          - button "🔬 27-ID" [ref=e112] [cursor=pointer]:
+            - generic [ref=e113] [cursor=pointer]: 🔬
+            - generic [ref=e114] [cursor=pointer]: 27-ID
+          - button "🔬 28-ID-1" [ref=e115] [cursor=pointer]:
+            - generic [ref=e116] [cursor=pointer]: 🔬
+            - generic [ref=e117] [cursor=pointer]: 28-ID-1
+          - button "🔬 28-ID-2" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119] [cursor=pointer]: 🔬
+            - generic [ref=e120] [cursor=pointer]: 28-ID-2
+          - button "🔬 29-ID-1" [ref=e121] [cursor=pointer]:
+            - generic [ref=e122] [cursor=pointer]: 🔬
+            - generic [ref=e123] [cursor=pointer]: 29-ID-1
+          - button "🔬 29-ID-2" [ref=e124] [cursor=pointer]:
+            - generic [ref=e125] [cursor=pointer]: 🔬
+            - generic [ref=e126] [cursor=pointer]: 29-ID-2
+  - contentinfo [ref=e127]:
+    - paragraph [ref=e128]: NSLS-II Beamline Device Naming System
+    - link "🐙 View on GitHub" [ref=e130] [cursor=pointer]:
+      - /url: https://github.com/mrakitin/dns-wizard
+      - generic [ref=e131] [cursor=pointer]: 🐙
+      - text: View on GitHub
+```
